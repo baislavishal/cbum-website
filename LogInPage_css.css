@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    height: 5vw;
+    width: 100%;
+    background-color: rgb(235, 66, 10);
+}
+
+img {
+    height: 3vw;
+    float: left;
+    margin: 0px;
+}
+
+.top-link {
+    text-align: center;
+    width: 40%;
+    float: right;
+}
+
+.nlinks {
+    display: inline;
+    float: left;
+    padding: 1.3vw;
+    text-decoration: none;
+    color: rgb(28, 26, 25);
+}
+
+.nlink:hover {
+    color: white;
+    background-color: rgb(28, 26, 25);
+    border-radius: 70%;
+    text-decoration: none;
+}
