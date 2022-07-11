@@ -29,17 +29,31 @@ img {
     float: right;
 }
 
+section {
+    width: 100%;
+    height: auto;
+}
+
+.logbox {
+    width: 50%;
+    margin: 10px;
+    padding: 30px;
+    border-color: black;
+    border-radius: 5px;
+}
+
 .nlinks {
     display: inline;
-    float: left;
-    padding: 1.3vw;
+    float: right;
+    margin: 0.7vw;
+    padding: 0.6vw;
     text-decoration: none;
     color: rgb(28, 26, 25);
 }
 
-.nlink:hover {
+.nlinks:hover {
     color: white;
     background-color: rgb(28, 26, 25);
-    border-radius: 70%;
+    border-radius: 22%;
     text-decoration: none;
 }
